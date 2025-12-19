@@ -31,3 +31,9 @@ Evaluation metrics:
 - **AUC-ROC**: ranking quality between positives and negatives.
 - **Average Precision (AP)**: quality on imbalanced data.
 - **Precision@K** (K=100): quality of top predictions.
+
+# Implementation notes
+
+Full pipeline is contained in Python notebook: data loading, model training, model evaluation.
+
+Unfortunately I could not run the code beggining with model training because I did not have enough memory (I tried Google Colab, Kaggle and local machine, nothing worked), so I have no results with model evaluation and comparison with models from original solution.
